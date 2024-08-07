@@ -23,3 +23,7 @@
     --hightlight-color: rgba(0, 0, 0, 0.1);
     --switch-bg-url: url(./assets/sun-stars.svg);
 }
+
+body {
+    background: var(--bg-url) no-repeat top center/var(--surface-color-hover);
+}
